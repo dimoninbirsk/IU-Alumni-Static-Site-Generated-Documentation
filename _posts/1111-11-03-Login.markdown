@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Authorisation"
+tag: User Guide
+permalink: authorisation
+---
+### Login
+
+<p align='center'>
+<img src="/assets/login-form.png" alt="Login Form" width="400"/>
+</p>
+
+User can login to the service by entering pair of login: password or login with Innopolis SSO.
+
+### Registration
