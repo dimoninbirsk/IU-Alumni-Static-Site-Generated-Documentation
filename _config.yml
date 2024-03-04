@@ -30,7 +30,7 @@ github_username:  dimoninbirsk
 
 # Build settings
 #theme: minima
-remote_theme: minima
+remote_theme: minimal-mistakes
 plugins:
   - jekyll-feed
 
