@@ -14,17 +14,17 @@ To get started with contributing, follow these steps:
 
 1. Fork the repository.
 2. Clone the forked repository to your local machine.
-3. Install the necessary dependencies by running npm install for Next.js and setting up your Python environment.
+3. Install the necessary dependencies by running ```npm install``` for Next.js and setting up your Python environment.
 
 ### Making Changes
 
-1. Create a new branch for your changes: git checkout -b feature/new-feature.
+1. Create a new branch for your changes: ``` git checkout -b feature/new-feature ```.
 2. Make your desired changes to the code.
 3. Test your changes to ensure they work as expected.
 
 ### Submitting Changes
 
-1. Push your changes to your forked repository: git push origin feature/new-feature.
+1. Push your changes to your forked repository: ```git push origin feature/new-feature```.
 2. Create a pull request to the main repository.
 
 ### Code Style

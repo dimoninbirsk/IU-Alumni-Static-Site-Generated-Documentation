@@ -11,10 +11,12 @@ permalink: authorisation
 <img src="/IU-Alumni-Static-Site-Generated-Documentation/assets/login-form.png" alt="Login Form" width="400"/>
 </p>
 
-User can login to the service by entering pair of login:password or login with Innopolis SSO.
+To log in, enter your username and password, or log in using Innopolis SSO
 
 ### Registration
 
+<p align='center'>
 <img src="/IU-Alumni-Static-Site-Generated-Documentation/assets/register-form.png" alt="Login Form" width="400"/>
+</p>
 
-User can register to the service by provideing next data: name, email, password.
+To register, you must enter your email, username and password.

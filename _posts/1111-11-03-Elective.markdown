@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Request Elective"
+tag: User Guide
+permalink: elective
+
+---
+
+To request access to the elective, click on **Request Elective** in the sidebar. You will be taken to this page. Find the desired elective and click on  **Request**. You will get access to it after the admin approves your request:
+
+<p align='center'>
+<img src="/IU-Alumni-Static-Site-Generated-Documentation/assets/request-elective.png" alt="Request elective" width="600"/>
+</p>
+

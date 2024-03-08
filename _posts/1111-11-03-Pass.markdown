@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Pass Order"
+tag: User Guide
+permalink: pass
+
+---
+
+To order access, click on the **Request Pass** in the sidebar. You will be taken to this page. Enter the required data and click on **Make Request**
+
+<p align='center'>
+<img src="/IU-Alumni-Static-Site-Generated-Documentation/assets/pass.png" alt="Login Form" width="400"/>
+</p>
+
+Under the form you can see the history of your requests:
+
+<p align='center'>
+<img src="/IU-Alumni-Static-Site-Generated-Documentation/assets/history.png" alt="Login Form" width="400"/>
+</p>
+
+You can also click on View to view the details:
+
+<p align='center'>
+<img src="/IU-Alumni-Static-Site-Generated-Documentation/assets/pass-info.png" alt="Login Form" width="400"/>
+</p>

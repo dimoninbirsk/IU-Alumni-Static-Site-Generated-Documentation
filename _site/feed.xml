@@ -1,16 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/" rel="alternate" type="text/html" /><updated>2024-03-08T22:57:17+03:00</updated><id>http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/feed.xml</id><title type="html">IU Alumni</title><subtitle>The IU Alumni project is designed to help university students keep track of events,  register for elective courses, manage attendance,  and request passes for various university-related purposes.</subtitle><entry><title type="html">Authorisation</title><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/authorisation" rel="alternate" type="text/html" title="Authorisation" /><published>1111-11-03T00:00:00+03:00</published><updated>1111-11-03T00:00:00+03:00</updated><id>http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/Login</id><content type="html" xml:base="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/authorisation"><![CDATA[<h3 id="login">Login</h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/" rel="alternate" type="text/html" /><updated>2024-03-08T23:29:13+03:00</updated><id>http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/feed.xml</id><title type="html">IU Alumni</title><subtitle>The IU Alumni project is designed to help university students keep track of events,  register for elective courses, manage attendance,  and request passes for various university-related purposes.</subtitle><entry><title type="html">Pass Order</title><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/pass" rel="alternate" type="text/html" title="Pass Order" /><published>1111-11-03T00:00:00+03:00</published><updated>1111-11-03T00:00:00+03:00</updated><id>http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/Pass</id><content type="html" xml:base="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/pass"><![CDATA[<p>To order access, click on the <strong>Request Pass</strong> in the sidebar. You will be taken to this page. Enter the required data and click on <strong>Make Request</strong></p>
+
+<p align="center">
+<img src="/IU-Alumni-Static-Site-Generated-Documentation/assets/pass.png" alt="Login Form" width="400" />
+</p>
+
+<p>Under the form you can see the history of your requests:</p>
+
+<p align="center">
+<img src="/IU-Alumni-Static-Site-Generated-Documentation/assets/history.png" alt="Login Form" width="400" />
+</p>
+
+<p>You can also click on View to view the details:</p>
+
+<p align="center">
+<img src="/IU-Alumni-Static-Site-Generated-Documentation/assets/pass-info.png" alt="Login Form" width="400" />
+</p>]]></content><author><name></name></author><category term="User Guide" /><summary type="html"><![CDATA[To order access, click on the Request Pass in the sidebar. You will be taken to this page. Enter the required data and click on Make Request]]></summary></entry><entry><title type="html">Authorisation</title><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/authorisation" rel="alternate" type="text/html" title="Authorisation" /><published>1111-11-03T00:00:00+03:00</published><updated>1111-11-03T00:00:00+03:00</updated><id>http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/Login</id><content type="html" xml:base="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/authorisation"><![CDATA[<h3 id="login">Login</h3>
 
 <p align="center">
 <img src="/IU-Alumni-Static-Site-Generated-Documentation/assets/login-form.png" alt="Login Form" width="400" />
 </p>
 
-<p>User can login to the service by entering pair of login:password or login with Innopolis SSO.</p>
+<p>To log in, enter your username and password, or log in using Innopolis SSO</p>
 
 <h3 id="registration">Registration</h3>
 
-<p><img src="/IU-Alumni-Static-Site-Generated-Documentation/assets/register-form.png" alt="Login Form" width="400" /></p>
+<p align="center">
+<img src="/IU-Alumni-Static-Site-Generated-Documentation/assets/register-form.png" alt="Login Form" width="400" />
+</p>
 
-<p>User can register to the service by provideing next data: name, email, password.</p>]]></content><author><name></name></author><category term="User Guide" /><summary type="html"><![CDATA[Login]]></summary></entry><entry><title type="html">API Reference</title><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/api" rel="alternate" type="text/html" title="API Reference" /><published>1111-11-03T00:00:00+03:00</published><updated>1111-11-03T00:00:00+03:00</updated><id>http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/API%20Reference</id><content type="html" xml:base="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/api"><![CDATA[<h2 id="user-authentication-api">User Authentication API</h2>
+<p>To register, you must enter your email, username and password.</p>]]></content><author><name></name></author><category term="User Guide" /><summary type="html"><![CDATA[Login]]></summary></entry><entry><title type="html">Request Elective</title><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/elective" rel="alternate" type="text/html" title="Request Elective" /><published>1111-11-03T00:00:00+03:00</published><updated>1111-11-03T00:00:00+03:00</updated><id>http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/Elective</id><content type="html" xml:base="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/elective"><![CDATA[<p>To request access to the elective, click on <strong>Request Elective</strong> in the sidebar. You will be taken to this page. Find the desired elective and click on  <strong>Request</strong>. You will get access to it after the admin approves your request:</p>
+
+<p align="center">
+<img src="/IU-Alumni-Static-Site-Generated-Documentation/assets/request-elective.png" alt="Request elective" width="600" />
+</p>]]></content><author><name></name></author><category term="User Guide" /><summary type="html"><![CDATA[To request access to the elective, click on Request Elective in the sidebar. You will be taken to this page. Find the desired elective and click on Request. You will get access to it after the admin approves your request:]]></summary></entry><entry><title type="html">API Reference</title><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/api" rel="alternate" type="text/html" title="API Reference" /><published>1111-11-03T00:00:00+03:00</published><updated>1111-11-03T00:00:00+03:00</updated><id>http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/API%20Reference</id><content type="html" xml:base="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/api"><![CDATA[<h2 id="user-authentication-api">User Authentication API</h2>
 <p>This API provides endpoints for user authentication, registration, and account management.</p>
 
 <h3 id="endpoints">Endpoints</h3>
@@ -86,13 +108,13 @@
 <ol>
   <li>Fork the repository.</li>
   <li>Clone the forked repository to your local machine.</li>
-  <li>Install the necessary dependencies by running npm install for Next.js and setting up your Python environment.</li>
+  <li>Install the necessary dependencies by running <code class="language-plaintext highlighter-rouge">npm install</code> for Next.js and setting up your Python environment.</li>
 </ol>
 
 <h3 id="making-changes">Making Changes</h3>
 
 <ol>
-  <li>Create a new branch for your changes: git checkout -b feature/new-feature.</li>
+  <li>Create a new branch for your changes: <code class="language-plaintext highlighter-rouge">git checkout -b feature/new-feature</code>.</li>
   <li>Make your desired changes to the code.</li>
   <li>Test your changes to ensure they work as expected.</li>
 </ol>
@@ -100,7 +122,7 @@
 <h3 id="submitting-changes">Submitting Changes</h3>
 
 <ol>
-  <li>Push your changes to your forked repository: git push origin feature/new-feature.</li>
+  <li>Push your changes to your forked repository: <code class="language-plaintext highlighter-rouge">git push origin feature/new-feature</code>.</li>
   <li>Create a pull request to the main repository.</li>
 </ol>
 
