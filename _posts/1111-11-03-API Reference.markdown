@@ -2,7 +2,7 @@
 layout: post
 title:  "API Reference"
 tag: API
-permalink: /api/
+permalink: /_posts/api/
 ---
 First, clone or download this repository.
 
