@@ -2,7 +2,7 @@
 layout: post
 title:  "API Reference"
 tag: API
-permalink: api
+permalink: IU-Alumni-Static-Site-Generated-Documentation/api
 ---
 First, clone or download this repository.
 
