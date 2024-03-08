@@ -3,21 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Contribute to project | IU Alumni</title>
+<title>Installation | IU Alumni</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Contribute to project" />
+<meta property="og:title" content="Installation" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Contribution Guidelines" />
-<meta property="og:description" content="Contribution Guidelines" />
-<link rel="canonical" href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/contribute" />
-<meta property="og:url" content="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/contribute" />
+<meta name="description" content="Installing frontend Open a shell/command line in this folder To install all packages (local to the repo) using npm install To build the project for production npm run build To start the project on development npm start" />
+<meta property="og:description" content="Installing frontend Open a shell/command line in this folder To install all packages (local to the repo) using npm install To build the project for production npm run build To start the project on development npm start" />
+<link rel="canonical" href="http://localhost:4000/installation" />
+<meta property="og:url" content="http://localhost:4000/installation" />
 <meta property="og:site_name" content="IU Alumni" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="1111-11-02T00:00:00+03:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Contribute to project" />
+<meta property="twitter:title" content="Installation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"1111-11-02T00:00:00+03:00","datePublished":"1111-11-02T00:00:00+03:00","description":"Contribution Guidelines","headline":"Contribute to project","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/contribute"},"url":"http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/contribute"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"1111-11-02T00:00:00+03:00","datePublished":"1111-11-02T00:00:00+03:00","description":"Installing frontend Open a shell/command line in this folder To install all packages (local to the repo) using npm install To build the project for production npm run build To start the project on development npm start","headline":"Installation","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/installation"},"url":"http://localhost:4000/installation"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="IU Alumni" /></head>
 <body><header class="site-header" role="banner">
@@ -40,54 +40,50 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Contribute to project</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Installation</h1>
     
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h2 id="contribution-guidelines">Contribution Guidelines</h2>
-
-<p>Thank you for considering contributing to our project! Please follow the guidelines below to make the contribution process smooth for everyone.</p>
-
-<h3 id="getting-started">Getting Started</h3>
-
-<p>To get started with contributing, follow these steps:</p>
-
+    <h3 id="installing-frontend">Installing frontend</h3>
 <ol>
-  <li>Fork the repository.</li>
-  <li>Clone the forked repository to your local machine.</li>
-  <li>Install the necessary dependencies by running npm install for Next.js and setting up your Python environment.</li>
+  <li>Open a shell/command line in this folder</li>
+  <li>To install all packages (local to the repo) using
+<code class="language-plaintext highlighter-rouge">npm install</code></li>
+  <li>To build the project for production
+<code class="language-plaintext highlighter-rouge">npm run build</code></li>
+  <li>To start the project on development
+<code class="language-plaintext highlighter-rouge">npm start</code></li>
 </ol>
 
-<h3 id="making-changes">Making Changes</h3>
+<h3 id="installing-backend">Installing backend</h3>
 
+<h4 id="using-python">Using Python</h4>
 <ol>
-  <li>Create a new branch for your changes: git checkout -b feature/new-feature.</li>
-  <li>Make your desired changes to the code.</li>
-  <li>Test your changes to ensure they work as expected.</li>
+  <li>Open a shell/command line in this folder (better if it was after activating a python virtual env)</li>
+  <li>
+    <p>Install the needed python packages</p>
+
+    <p><code class="language-plaintext highlighter-rouge">pip install -r requirements.txt</code></p>
+  </li>
+  <li>
+    <p>Run the python script:</p>
+
+    <p><code class="language-plaintext highlighter-rouge">python3 main.py</code></p>
+  </li>
 </ol>
 
-<h3 id="submitting-changes">Submitting Changes</h3>
-
+<h4 id="using-docker">Using Docker</h4>
 <ol>
-  <li>Push your changes to your forked repository: git push origin feature/new-feature.</li>
-  <li>Create a pull request to the main repository.</li>
+  <li>Here the image tag name is alumni-backend you can name it as you like</li>
+  <li>Also the port in docker is 8000 by default and locally you can map it to anything as you like
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker build -t alumni-backend
+docker run -p 8000:8000 -d alumni-backend
+</code></pre></div>    </div>
+  </li>
 </ol>
 
-<h3 id="code-style">Code Style</h3>
-
-<ul>
-  <li>Follow PEP 8 guidelines for Python code.</li>
-  <li>Follow the Next.js style guide for front-end code.</li>
-</ul>
-
-<h3 id="help-needed">Help Needed?</h3>
-
-<p>If you need help or have any questions, feel free to open an issue or reach out to one of the maintainers.</p>
-
-<p>We appreciate your contribution to our project! Thank you for your support.</p>
-
-  </div><a class="u-url" href="/IU-Alumni-Static-Site-Generated-Documentation/contribute" hidden></a>
+  </div><a class="u-url" href="/installation" hidden></a>
 </article>
 
       </div>
