@@ -4,6 +4,8 @@ title:  "API Reference"
 tag: API
 permalink: api
 ---
+First, clone or download this repository.
+
 ### Installing frontend
 1. Open a shell/command line in this folder
 2. To install all packages (local to the repo) using
