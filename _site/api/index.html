@@ -3,21 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>What is IU Alumni Portal | IU Alumni</title>
+<title>API Reference | IU Alumni</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="What is IU Alumni Portal" />
+<meta property="og:title" content="API Reference" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This website involves the ability to keep up with events happening in the univeristy, register for elective courses attendance and request a pass to enter university for different purposes." />
-<meta property="og:description" content="This website involves the ability to keep up with events happening in the univeristy, register for elective courses attendance and request a pass to enter university for different purposes." />
-<link rel="canonical" href="http://localhost:4000/what-is-alumni-portal" />
-<meta property="og:url" content="http://localhost:4000/what-is-alumni-portal" />
+<meta name="description" content="First, clone or download this repository." />
+<meta property="og:description" content="First, clone or download this repository." />
+<link rel="canonical" href="http://localhost:4000/api/" />
+<meta property="og:url" content="http://localhost:4000/api/" />
 <meta property="og:site_name" content="IU Alumni" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="1111-11-01T00:00:00+03:00" />
+<meta property="article:published_time" content="1111-11-03T00:00:00+03:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="What is IU Alumni Portal" />
+<meta property="twitter:title" content="API Reference" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"1111-11-01T00:00:00+03:00","datePublished":"1111-11-01T00:00:00+03:00","description":"This website involves the ability to keep up with events happening in the univeristy, register for elective courses attendance and request a pass to enter university for different purposes.","headline":"What is IU Alumni Portal","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/what-is-alumni-portal"},"url":"http://localhost:4000/what-is-alumni-portal"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"1111-11-03T00:00:00+03:00","datePublished":"1111-11-03T00:00:00+03:00","description":"First, clone or download this repository.","headline":"API Reference","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/api/"},"url":"http://localhost:4000/api/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="IU Alumni" /></head>
 <body><header class="site-header" role="banner">
@@ -40,22 +40,52 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">What is IU Alumni Portal</h1>
+    <h1 class="post-title p-name" itemprop="name headline">API Reference</h1>
     
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>This website involves the ability to keep up with events happening in the univeristy, register for elective courses attendance and request a pass to enter university for different purposes.</p>
+    <p>First, clone or download this repository.</p>
 
-<h3 id="actions">Actions</h3>
-<ul>
-  <li>Customer Complaints: Customers can submit complaints directly through the telegram group mentioed on the website.</li>
-  <li>Users Data Management: Admins are able to accept or deny requests from users with feedback (on reasons for example)</li>
-  <li>Pass Order: Alumni users can request a pass to enter the university for different purposes from the main page of the website</li>
-  <li>Elective Courses Participation Requests: Alumni users can request to attend elective courses held in the university at the time they are applying.</li>
-</ul>
+<h3 id="installing-frontend">Installing frontend</h3>
+<ol>
+  <li>Open a shell/command line in this folder</li>
+  <li>To install all packages (local to the repo) using
+<code class="language-plaintext highlighter-rouge">npm install</code></li>
+  <li>To build the project for production
+<code class="language-plaintext highlighter-rouge">npm run build</code></li>
+  <li>To start the project on development
+<code class="language-plaintext highlighter-rouge">npm start</code></li>
+</ol>
 
-  </div><a class="u-url" href="/what-is-alumni-portal" hidden></a>
+<h3 id="installing-backend">Installing backend</h3>
+
+<h4 id="using-python">Using Python</h4>
+<ol>
+  <li>Open a shell/command line in this folder (better if it was after activating a python virtual env)</li>
+  <li>
+    <p>Install the needed python packages</p>
+
+    <p><code class="language-plaintext highlighter-rouge">pip install -r requirements.txt</code></p>
+  </li>
+  <li>
+    <p>Run the python script:</p>
+
+    <p><code class="language-plaintext highlighter-rouge">python3 main.py</code></p>
+  </li>
+</ol>
+
+<h4 id="using-docker">Using Docker</h4>
+<ol>
+  <li>Here the image tag name is alumni-backend you can name it as you like</li>
+  <li>Also the port in docker is 8000 by default and locally you can map it to anything as you like
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker build -t alumni-backend
+docker run -p 8000:8000 -d alumni-backend
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+  </div><a class="u-url" href="/api/" hidden></a>
 </article>
 
       </div>

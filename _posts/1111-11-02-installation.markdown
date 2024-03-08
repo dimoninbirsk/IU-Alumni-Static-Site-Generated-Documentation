@@ -2,7 +2,7 @@
 layout: post
 title:  "Installation"
 tag: Getting Started
-permalink: installation
+permalink: /installation/
 ---
 ### Installing frontend
 1. Open a shell/command line in this folder

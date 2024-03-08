@@ -2,7 +2,7 @@
 layout: post
 title:  "Authorisation"
 tag: User Guide
-permalink: authorisation
+permalink: /authorisation/
 ---
 ### Login
 

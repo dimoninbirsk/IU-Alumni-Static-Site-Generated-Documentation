@@ -2,7 +2,7 @@
 layout: post
 title:  "What is IU Alumni Portal"
 tag: Getting Started
-permalink: what-is-alumni-portal
+permalink: /what-is-alumni-portal/
 ---
 This website involves the ability to keep up with events happening in the univeristy, register for elective courses attendance and request a pass to enter university for different purposes.
 
