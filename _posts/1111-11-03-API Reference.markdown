@@ -2,35 +2,63 @@
 layout: post
 title:  "API Reference"
 tag: API
-permalink: /IU-Alumni-Static-Site-Generated-Documentation/_posts/api
+permalink: api
 ---
-First, clone or download this repository.
+## User Authentication API
+This API provides endpoints for user authentication, registration, and account management.
 
-### Installing frontend
-1. Open a shell/command line in this folder
-2. To install all packages (local to the repo) using
-```npm install```
-3. To build the project for production
-```npm run build```
-4. To start the project on development
-```npm start```
+### Endpoints
+- Login (POST /login): Authenticate a user using email and password.
+- Register (POST /register): Create a new user account.
+- Register Admin (POST /register-admin): Create a new admin user account.
+- Update Account (POST /update): Update the current user's account information.
+- Update Password (POST /update-password): Update the current user's password.
+- Get Current User (GET /): Retrieve the current user's information.
+- Get All Users (GET /all): Retrieve information about all registered users.
+- Forgot Password (POST /forgot-password): Send a password reset email to the user's university email address.
+- Update Password (POST /forgot-update-password): Update the user's password after they have forgotten it.
+- Verify Account (POST /verify-account): Send a verification email to the user's university email address.
+- Confirm Verification (POST /confirm_verification): Verify the user's account using the code sent to their email.
+- SSO Login (GET /login_sso): Redirect to the SSO login page.
+- SSO Callback (GET /callback): Handle the SSO callback and authenticate the user.
 
-### Installing backend
+---
 
-#### Using Python
-1. Open a shell/command line in this folder (better if it was after activating a python virtual env)
-2. Install the needed python packages
+## Obtain Pass API
+This API provides endpoints for managing pass requests.
 
-   ```pip install -r requirements.txt```
+### Endpoints
+- Get All Pass Requests (GET /): Retrieve all pass requests made by the current user.
+- Get All Pass Requests (GET /admin): Retrieve all pass requests (for admins only).
+- Update Pass Request (PATCH /): Update a pass request.
+- Create Pass Request (POST /): Create a new pass request.
+- Delete Pass Request (DELETE /): Delete a pass request.
 
-3. Run the python script:
+---
 
-    ```python3 main.py```
+## Elective Courses API
+This API provides endpoints for managing elective courses and course requests.
 
-#### Using Docker
-1. Here the image tag name is alumni-backend you can name it as you like
-2. Also the port in docker is 8000 by default and locally you can map it to anything as you like
-```
-docker build -t alumni-backend
-docker run -p 8000:8000 -d alumni-backend
-```
+### Endpoints
+- Get All Elective Courses (GET /): Retrieve all elective courses.
+- Get All Elective Courses (GET /admin): Retrieve all elective courses (for admins only).
+- Get Booked Elective Courses (GET /booked): Retrieve all elective courses booked by the current user.
+- Get All Elective Requests (GET /request): Retrieve all elective course requests (for admins only).
+- Create Elective Course (POST /): Create a new elective course.
+- Create Elective Courses in Bulk (POST /bulk): Create multiple elective courses at once.
+- Update Elective Course (PUT /): Update an existing elective course.
+- Delete Elective Course (DELETE /remove): Delete an elective course.
+- Disconnect Elective Course Request (DELETE /): Disconnect an elective course request from the current user.
+- Request Elective Course (POST /request): Request to enroll in an elective course.
+- Update Elective Request (PATCH /): Update an elective course request.
+
+---
+
+## Manage Donations API
+This API provides endpoints for managing donations.
+
+### Endpoints
+- Get All Donations (GET /): Retrieve all donations made by alumni.
+- Make Donation (POST /): Make a donation.
+- Get Admin Donation Message (GET /admin): Retrieve the admin's donation message.
+- Update Admin Donation Message (POST /admin): Update the admin's donation message.

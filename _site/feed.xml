@@ -1,50 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/" rel="alternate" type="text/html" /><updated>2024-03-08T22:24:13+03:00</updated><id>http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/feed.xml</id><title type="html">IU Alumni</title><subtitle>The IU Alumni project is designed to help university students keep track of events,  register for elective courses, manage attendance,  and request passes for various university-related purposes.</subtitle><entry><title type="html">Authorisation</title><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/1111/11/03/Login.html" rel="alternate" type="text/html" title="Authorisation" /><published>1111-11-03T00:00:00+03:00</published><updated>1111-11-03T00:00:00+03:00</updated><id>http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/1111/11/03/Login</id><content type="html" xml:base="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/1111/11/03/Login.html"><![CDATA[<h3 id="login">Login</h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/" rel="alternate" type="text/html" /><updated>2024-03-08T22:57:17+03:00</updated><id>http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/feed.xml</id><title type="html">IU Alumni</title><subtitle>The IU Alumni project is designed to help university students keep track of events,  register for elective courses, manage attendance,  and request passes for various university-related purposes.</subtitle><entry><title type="html">Authorisation</title><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/authorisation" rel="alternate" type="text/html" title="Authorisation" /><published>1111-11-03T00:00:00+03:00</published><updated>1111-11-03T00:00:00+03:00</updated><id>http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/Login</id><content type="html" xml:base="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/authorisation"><![CDATA[<h3 id="login">Login</h3>
 
 <p align="center">
 <img src="/IU-Alumni-Static-Site-Generated-Documentation/assets/login-form.png" alt="Login Form" width="400" />
 </p>
 
-<p>User can login to the service by entering pair of login: password or login with Innopolis SSO.</p>
+<p>User can login to the service by entering pair of login:password or login with Innopolis SSO.</p>
 
-<h3 id="registration">Registration</h3>]]></content><author><name></name></author><category term="User Guide" /><summary type="html"><![CDATA[Login]]></summary></entry><entry><title type="html">API Reference</title><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/IU-Alumni-Static-Site-Generated-Documentation/_posts/api" rel="alternate" type="text/html" title="API Reference" /><published>1111-11-03T00:00:00+03:00</published><updated>1111-11-03T00:00:00+03:00</updated><id>http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/IU-Alumni-Static-Site-Generated-Documentation/_posts/API%20Reference</id><content type="html" xml:base="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/IU-Alumni-Static-Site-Generated-Documentation/_posts/api"><![CDATA[<p>First, clone or download this repository.</p>
+<h3 id="registration">Registration</h3>
 
-<h3 id="installing-frontend">Installing frontend</h3>
-<ol>
-  <li>Open a shell/command line in this folder</li>
-  <li>To install all packages (local to the repo) using
-<code class="language-plaintext highlighter-rouge">npm install</code></li>
-  <li>To build the project for production
-<code class="language-plaintext highlighter-rouge">npm run build</code></li>
-  <li>To start the project on development
-<code class="language-plaintext highlighter-rouge">npm start</code></li>
-</ol>
+<p><img src="/IU-Alumni-Static-Site-Generated-Documentation/assets/register-form.png" alt="Login Form" width="400" /></p>
 
-<h3 id="installing-backend">Installing backend</h3>
+<p>User can register to the service by provideing next data: name, email, password.</p>]]></content><author><name></name></author><category term="User Guide" /><summary type="html"><![CDATA[Login]]></summary></entry><entry><title type="html">API Reference</title><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/api" rel="alternate" type="text/html" title="API Reference" /><published>1111-11-03T00:00:00+03:00</published><updated>1111-11-03T00:00:00+03:00</updated><id>http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/API%20Reference</id><content type="html" xml:base="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/api"><![CDATA[<h2 id="user-authentication-api">User Authentication API</h2>
+<p>This API provides endpoints for user authentication, registration, and account management.</p>
 
-<h4 id="using-python">Using Python</h4>
-<ol>
-  <li>Open a shell/command line in this folder (better if it was after activating a python virtual env)</li>
-  <li>
-    <p>Install the needed python packages</p>
+<h3 id="endpoints">Endpoints</h3>
+<ul>
+  <li>Login (POST /login): Authenticate a user using email and password.</li>
+  <li>Register (POST /register): Create a new user account.</li>
+  <li>Register Admin (POST /register-admin): Create a new admin user account.</li>
+  <li>Update Account (POST /update): Update the current user’s account information.</li>
+  <li>Update Password (POST /update-password): Update the current user’s password.</li>
+  <li>Get Current User (GET /): Retrieve the current user’s information.</li>
+  <li>Get All Users (GET /all): Retrieve information about all registered users.</li>
+  <li>Forgot Password (POST /forgot-password): Send a password reset email to the user’s university email address.</li>
+  <li>Update Password (POST /forgot-update-password): Update the user’s password after they have forgotten it.</li>
+  <li>Verify Account (POST /verify-account): Send a verification email to the user’s university email address.</li>
+  <li>Confirm Verification (POST /confirm_verification): Verify the user’s account using the code sent to their email.</li>
+  <li>SSO Login (GET /login_sso): Redirect to the SSO login page.</li>
+  <li>SSO Callback (GET /callback): Handle the SSO callback and authenticate the user.</li>
+</ul>
 
-    <p><code class="language-plaintext highlighter-rouge">pip install -r requirements.txt</code></p>
-  </li>
-  <li>
-    <p>Run the python script:</p>
+<hr />
 
-    <p><code class="language-plaintext highlighter-rouge">python3 main.py</code></p>
-  </li>
-</ol>
+<h2 id="obtain-pass-api">Obtain Pass API</h2>
+<p>This API provides endpoints for managing pass requests.</p>
 
-<h4 id="using-docker">Using Docker</h4>
-<ol>
-  <li>Here the image tag name is alumni-backend you can name it as you like</li>
-  <li>Also the port in docker is 8000 by default and locally you can map it to anything as you like
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker build -t alumni-backend
-docker run -p 8000:8000 -d alumni-backend
-</code></pre></div>    </div>
-  </li>
-</ol>]]></content><author><name></name></author><category term="API" /><summary type="html"><![CDATA[First, clone or download this repository.]]></summary></entry><entry><title type="html">Contribute to project</title><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/contribute/" rel="alternate" type="text/html" title="Contribute to project" /><published>1111-11-02T00:00:00+03:00</published><updated>1111-11-02T00:00:00+03:00</updated><id>http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/contribute</id><content type="html" xml:base="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/contribute/"><![CDATA[<h2 id="contribution-guidelines">Contribution Guidelines</h2>
+<h3 id="endpoints-1">Endpoints</h3>
+<ul>
+  <li>Get All Pass Requests (GET /): Retrieve all pass requests made by the current user.</li>
+  <li>Get All Pass Requests (GET /admin): Retrieve all pass requests (for admins only).</li>
+  <li>Update Pass Request (PATCH /): Update a pass request.</li>
+  <li>Create Pass Request (POST /): Create a new pass request.</li>
+  <li>Delete Pass Request (DELETE /): Delete a pass request.</li>
+</ul>
+
+<hr />
+
+<h2 id="elective-courses-api">Elective Courses API</h2>
+<p>This API provides endpoints for managing elective courses and course requests.</p>
+
+<h3 id="endpoints-2">Endpoints</h3>
+<ul>
+  <li>Get All Elective Courses (GET /): Retrieve all elective courses.</li>
+  <li>Get All Elective Courses (GET /admin): Retrieve all elective courses (for admins only).</li>
+  <li>Get Booked Elective Courses (GET /booked): Retrieve all elective courses booked by the current user.</li>
+  <li>Get All Elective Requests (GET /request): Retrieve all elective course requests (for admins only).</li>
+  <li>Create Elective Course (POST /): Create a new elective course.</li>
+  <li>Create Elective Courses in Bulk (POST /bulk): Create multiple elective courses at once.</li>
+  <li>Update Elective Course (PUT /): Update an existing elective course.</li>
+  <li>Delete Elective Course (DELETE /remove): Delete an elective course.</li>
+  <li>Disconnect Elective Course Request (DELETE /): Disconnect an elective course request from the current user.</li>
+  <li>Request Elective Course (POST /request): Request to enroll in an elective course.</li>
+  <li>Update Elective Request (PATCH /): Update an elective course request.</li>
+</ul>
+
+<hr />
+
+<h2 id="manage-donations-api">Manage Donations API</h2>
+<p>This API provides endpoints for managing donations.</p>
+
+<h3 id="endpoints-3">Endpoints</h3>
+<ul>
+  <li>Get All Donations (GET /): Retrieve all donations made by alumni.</li>
+  <li>Make Donation (POST /): Make a donation.</li>
+  <li>Get Admin Donation Message (GET /admin): Retrieve the admin’s donation message.</li>
+  <li>Update Admin Donation Message (POST /admin): Update the admin’s donation message.</li>
+</ul>]]></content><author><name></name></author><category term="API" /><summary type="html"><![CDATA[User Authentication API This API provides endpoints for user authentication, registration, and account management.]]></summary></entry><entry><title type="html">Contribute to project</title><link href="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/contribute/" rel="alternate" type="text/html" title="Contribute to project" /><published>1111-11-02T00:00:00+03:00</published><updated>1111-11-02T00:00:00+03:00</updated><id>http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/contribute</id><content type="html" xml:base="http://localhost:4000/IU-Alumni-Static-Site-Generated-Documentation/contribute/"><![CDATA[<h2 id="contribution-guidelines">Contribution Guidelines</h2>
 
 <p>Thank you for considering contributing to our project! Please follow the guidelines below to make the contribution process smooth for everyone.</p>
 
