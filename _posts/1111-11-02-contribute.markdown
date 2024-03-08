@@ -2,7 +2,7 @@
 layout: post
 title:  "Contribute to project"
 tag: Getting Started
-permalink: /IU-Alumni-Static-Site-Generated-Documentation/contribute
+permalink: contribute
 ---
 ## Contribution Guidelines
 
