@@ -7,7 +7,7 @@ tag: User Guide
 ### Login
 
 <p align='center'>
-<img src="/assets/login-form.png" alt="Login Form" width="400"/>
+<img src="/IU-Alumni-Static-Site-Generated-Documentation/assets/login-form.png" alt="Login Form" width="400"/>
 </p>
 
 User can login to the service by entering pair of login: password or login with Innopolis SSO.
