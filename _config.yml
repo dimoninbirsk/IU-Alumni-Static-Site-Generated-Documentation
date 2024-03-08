@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   The IU Alumni project is designed to help university students keep track of events, 
   register for elective courses, manage attendance, 
   and request passes for various university-related purposes.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/IU-Alumni-Static-Site-Generated-Documentation/" # the subpath of your site, e.g. /blog
 url: "http://dimoninbirsk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  dimoninbirsk
 
